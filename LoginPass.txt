@@ -1,0 +1,53 @@
+*****Update on 11/29/00 I had a few bugs, because I was half asleep after being up 36 straight hours, but I now have the correct database and users.  And fix a couple bugs that were pointed out to me by users that downloaded this.  The wording on two of the password checks have been fixed.
+
+****Note after looking and looking I decided to build my own user login, with password security
+
+I use this with an Access database, I realize that if you want to monkey around with the .mdw, SQL 7.0, or Oracle you probably won't need this.  However there are still plenty of things in here to learn.
+
+Login and Password Security W/ Access
+These forms and modules can be placed in any VB 6.0 project and you add the rest of your forms and you have a secure application.  Full functioning: add users, delete users, re-set user password, comments on users, password expire term, default password forced change, user Task levels that you can name.  This consist of two modules, three forms, and one data environment. This is all done in VB 6.0 and in ADO format. All kind of validation.
+
+If you use any or all of my code, please remember I am just like you a programmer trying to make it,  please pay me for my work.  I am only asking for $5.00.  I could have easily sold this through my web site, however, I looked for something myself at an affordable price and could not find anything, so I figure there are other that are looking to.  If you have been looking you see all the bad ones out there, like the ones where you only get the choice of one password.  This is a very secure program and will do everything you need.  Please do not use my code at a corporation without sending a donation to the develope and future development.  I plan to continue developing this adding some really nice feature plus an HTML file that you can compile with your application help.  If you send me your email with the payment I will continue to send you the updated files.  I will not post anu further developments.  Please just take a look at my work and you can see that I have spent some time designing, building, and testing.  I tested on network, with twenty concurrent sign-ons with no problems. This should support up to 100 users.  (that where I would feel safe) but others say 200, try and let me know. 
+
+My address is:
+NKK
+2905 Frost Drive SW
+Decatur, AL  35603
+
+Please watch what you change variables are all throughout application, but the positive is that you can call them anywhere.
+
+I have commented this to point you should be able to clearly understand, but if you have any questions, comments, or future request to design please email me steelcoil@bellsouth.net I will try to answer the questions as quickly as I can.
+
+Please remember if you use any or all of my code to send me the small fee, this is a very cheap program for $5.33 after January 1 $5.34
+
+I am also interested in contract work, if you are in need of a VB programmer, please contact me for a address to my website and resume.
+
+The access database needs to go in c:\ and the name should not be changed; later you can change the name and the location.  
+
+The three user that are; they are in the sample database.
+
+UserID = MAMcCrak
+Password = Zy01xSiA 'passwords are case-sensitive
+TaskLevel = 5 - Administrator
+Expire = 5/01/01
+Activation = 11/26/00
+Notes: Mark is an administrator and you can sign as Mark and add your own, then you will be able to delete Mark.  Always keep a database with your Administrator login for back-up reason, next version will have a fix for this.
+
+UserID = TBMcCrak
+Password = iG23YZ0qb5 'passwords are case-sensitive
+TaskLevel = 4 - Claims
+Expire = 3/1/00
+Activation = 1/1/00 'had to set this one back would normally expire 180 days but you can easily shorten
+Notes: Terry's password has expired and she will be prompted to change when she tries to log on
+
+UserIS = BMMcCrak
+Password = password 'passwords are case-sensitive
+TaskLevel = 3 - Material Control
+Expire = 5/26/01
+Activation = 11/26/00
+Notes: Bobby has just been added to the user list so his password is the default and must be changed as soon as he logs on.
+
+***Note that when a user changes his or her password, there are all kind of checks so they can't enter an easy password, the next version will even have more checks that will be very intense with the ability for the programer to activate rules or let the administrators make that choice.
+
+************************
+IF THERE IS SOMEWHERE TO VOTE ON MY APPLICATION PLEASE TAKE THE TIME TO DO SO, I HOPE YOU ENJOY AND WILL GET ON THE MAILING LIST FOR FUTURE UPDATES AS THERE WILL BE SEVERAL.
